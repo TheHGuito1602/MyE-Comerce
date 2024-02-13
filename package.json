@@ -1,0 +1,18 @@
+{
+  "name": "e-comerce_backend",
+  "version": "1.0.0",
+  "description": "Backend de Node con Expresss y MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Hugo PrieVelaz",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2"
+  }
+}
